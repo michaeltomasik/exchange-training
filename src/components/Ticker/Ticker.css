@@ -1,0 +1,9 @@
+.Ticker {
+  background-color: #273640;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  max-width: 400px;
+  font-size: 14px;
+  color: white;
+}

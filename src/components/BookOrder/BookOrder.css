@@ -1,0 +1,30 @@
+.BookOrder {
+  color: white;
+  font-size: 11px;
+  display: flex;
+}
+
+.leftColumn, .rightColumn {
+  min-width: 400px;
+  background-color: #273640;
+}
+
+.BookOrderRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.BookOrderRow div {
+  text-align: center;
+  flex: 1;
+}
+
+.BookOrder-header {
+  display: flex;
+  justify-content: space-around;
+  color: grey;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}

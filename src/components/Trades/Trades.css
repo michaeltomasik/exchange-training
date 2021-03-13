@@ -1,0 +1,31 @@
+.Trades {
+  width: 500px;
+  background-color: #273640;
+  color: white;
+  font-size: 11px;
+  max-height: 400px;
+}
+.TradesRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.TradesRow div, .Trades-header div {
+  flex: 1;
+  text-align: right;
+}
+
+.Trades-header {
+  display: flex;
+  justify-content: space-background;
+  color: grey;
+}
+
+.Trades-red {
+  background: #523239;
+}
+
+.Trades-green {
+  background: #214939;
+}
